@@ -51,10 +51,29 @@
         }
         .three-columns .column{
             width: 100%;
-            max-width: 150px;
+            max-width: 175px;
             display: inline-block;
             vertical-align: top;
             text-align: center;
+        }
+        .three-columns .padding{
+            padding: 15px;
+        }
+        .three-columns .content{
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 15px;
+        }
+        .two-columns.last{
+            padding: 15px;
+        }
+        .two-columns .last .padding{
+            padding: 20px;
+        }
+        .two-columns.content{
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
         }
         
     </style>
@@ -177,7 +196,60 @@
                     </table>
                 </td>
             </tr>
-            </table>
+
+            <!-- Two Column Section -->
+            <tr>
+                <td style="background-color: #26292b;color: #ffffff;">
+                    <table width="100%">
+
+                        <tr>
+                            <td class="two-columns last">
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="profile.png"
+                                                            alt="" width="260px" style="max-width:
+                                                             260px;"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size:
+                                                            18px;">Heading</p>
+                                                        <p contenteditable="true" style="padding-bottom: 16px;"></p>
+                                                        <a href="#" class="button">Read More</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+        </table>
 
         </center>
 
